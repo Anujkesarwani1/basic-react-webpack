@@ -1,0 +1,105 @@
+{
+  "timesheet": [
+    {
+      "employeeId": "E1",
+      "name": "Anuj",
+      "email": "anuj@gmail.com",
+      "projectName": "xyz",
+      "task": "task5",
+      "date": "2023-10-26",
+      "hours": "5",
+      "description": "description",
+      "rating": "4",
+      "id": 1
+    },
+    {
+      "employeeId": "E2",
+      "name": "Vibhuti",
+      "email": "vibhuti@gmail.com",
+      "projectName": "xyz",
+      "task": "task10",
+      "date": "2023-05-23",
+      "hours": "2",
+      "description": "description",
+      "rating": "2",
+      "id": 2
+    }
+  ],
+  "manager": [
+    {
+      "id": 1,
+      "managerId": "M1",
+      "managerName": "Reena",
+      "managerEmail": "reena@gmail.com",
+      "employeeIds": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "id": 2,
+      "managerId": "M2",
+      "managerName": "Aman",
+      "managerEmail": "aman@gmail.com",
+      "employeeIds": [
+        "E1"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "manager@gmail.com",
+      "password": "manager",
+      "role": "manager"
+    },
+    {
+      "id": 3,
+      "email": "employee@gmail.com",
+      "password": "employee",
+      "role": "employee"
+    },
+    {
+      "id": 4,
+      "email": "anuj@gmail.com",
+      "password": "anuj",
+      "role": "employee"
+    },
+    {
+      "id": 5,
+      "email": "vibhuti@gmail.com",
+      "password": "vibhuti",
+      "role": "employee"
+    },
+    {
+      "id": 6,
+      "email": "reena@gmail.com",
+      "password": "reena",
+      "role": "manager"
+    },
+    {
+      "id": 7,
+      "email": "seetha@gmail.com",
+      "password": "seetha",
+      "role": "manager"
+    },
+    {
+      "id": 8,
+      "email": "aman@gmail.com",
+      "password": "aman",
+      "role": "manager"
+    },
+    {
+      "id": 9,
+      "email": "raushan@gmail.com",
+      "password": "raushan",
+      "role": "employee"
+    }
+  ]
+}
